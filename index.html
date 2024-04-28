@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="DnD Dice Roller is an online virtual dice roller for Dungeons & Dragons or any tabletop game where dice are required. Roll any type or combination of D&D dice.">
+  <meta name="keywords" content="dnd,d&amp;d,dnd dice,d&amp;d dice,dnd dice roller,d&amp;d dice roller,game dice,game dice roller, virtual dice roller, online dice roller">
+  <meta name="author" content="DnD Dice Roller">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="index.html">
+  <link rel='shortcut icon' type="image/png" href="favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="css/dnddiceroller.css">
+  <script type="text/javascript" src="js/dnddiceroller.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>DnD Dice Roller</title>
+</head>
+<body>
+  <div id="body-wrapper">
+    <div id="left-column" class="main-column">
+      <!-- Left column content if needed -->
+    </div>
+    <div id="middle-column" class="main-column">
+      <header role="banner">
+        <a href="index.html"><img src="images/dnd-dice-roller.png" alt="DnD Dice Roller" title="DnD Dice Roller"/></a>
+        <div id="privacy-div">
+          <p>DnD Dice Roller uses cookies to improve the quality of your experience. <a href="privacy.html" title="DnD Dice Roller Privacy Policy">Learn more</a>.</p><br>
+          <button id="privacy-ok" onclick="privacyOK()">OK</button>
+        </div>
+      </header>
+      <hr>
+      <div class="center" id="header-links">
+        <a href="index.html"><img class="link-img" src="images/home-link.png"/></a>
+        <a href="howtouse.html"><img class="link-img" src="images/how-to-use-link.png"/></a>
+        <a href="about.html"><img class="link-img" src="images/about-link.png"/></a>
+        <a href="contact.html"><img class="link-img" src="images/contact-link.png"/></a>
+        <a href="resources.html"><img class="link-img" src="images/resources-link.png"/></a>
+        <a href="links.html"><img class="link-img" src="images/links-link.png"/></a>
+      </div>
+      <br>
+      <div id="sub-title">
+        <h1>Welcome to DnD Dice Roller, an online dice roller for Dungeons & Dragons and other tabletop games.</h1>
+      </div>
+      <br>
+      <div id="pane-wrapper">
+        <div class="pane">
+          <h2 id="choose-your-dice"><img src="images/choose-your-dice.png" alt="Dice Roller"/></h2>
+          <!-- Dice Roller Interface Here -->
+        </div>
+        <div class="pane">
+          <h2 id="dice-roll-log"><img src="images/dice-roll-log.png" alt="Dice Roll Log"/></h2>
+          <!-- Dice Roll Log Interface Here -->
+        </div>
+      </div>
+      <br>
+      <div class="pane" id="article-column">
+        <!-- Articles and Introduction Here -->
+      </div>
+    </div>
+    <div id="right-column" class="main-column">
+      <!-- Right column content if needed -->
+    </div>
+    <div id="footer-wrapper">
+      <footer>
+        <div id="footer-links">
+          <a href="index.html" title="DnD Dice Roller">Home</a> /
+          <a href="terms-of-use.html">Terms</a> /
+          <a href="privacy.html">Privacy</a> /
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="white" id="copy-text"></div>
+      </footer>
+    </div>
+  </div>
+  <script>copyrightText();</script>
+</body>
+</html>

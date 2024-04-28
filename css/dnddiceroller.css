@@ -1,0 +1,132 @@
+/* DnD Dice Roller - Custom Website CSS */
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("../images/DnD_Starter_Art.jpg");
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Header */
+header {
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Navigation Menu */
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #f68b1f;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  color: #fff;
+}
+
+/* Dice Roller Section */
+.dice-roller {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.dice-roller h2 {
+  margin-bottom: 15px;
+}
+
+.dice-roller button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #f68b1f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dice-roller button:hover {
+  background-color: #ffaf40;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #f68b1f;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 5px 0;
+  }
+
+  .dice-roller button {
+    padding: 5px 10px;
+  }
+}
